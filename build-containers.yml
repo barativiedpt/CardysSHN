@@ -12,8 +12,6 @@ on:
       - develop
     paths:
       - '.github/workflows/build-containers.yml'
-      - 'share/spack/docker/*'
-      - 'share/templates/container/*'
       - 'lib/spack/spack/container/*'
   # Let's also build & tag Spack containers on releases.
   release:
